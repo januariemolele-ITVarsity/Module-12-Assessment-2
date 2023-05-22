@@ -1,0 +1,285 @@
+/*========== General ========== */
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: "Times New Roman";
+    text-align: center;
+}
+
+#main-content {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*========== Home ========== */
+
+.body-home {
+    background-image: url(img/pexels-hermaion-205414.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.heading-main {
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    background-color: rgba(13, 13, 13, 0.76);
+    padding: 5px 0;
+}
+
+table {
+    width: 80%;
+    color: whitesmoke;
+    font-style: italic;
+    margin: 8rem 0 2rem 10%;
+    border: 2px solid black;
+    text-align: left;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.73);
+}
+
+tr,td {
+    border: 1px solid dimgray;
+    padding: 10px;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(242, 242, 242, 0.15);
+}
+
+tr:hover {
+    color: red;
+}
+
+#refresh {
+    position: absolute;
+    top: 7rem;
+    margin-left: 5%;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 12px;
+    padding: 5px 15px;
+    background-color: red;
+    color: whitesmoke;
+    transition: 0.25px;
+
+}
+
+#refresh:hover {
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 12px;
+    color: whitesmoke;
+    background-color: black;
+}
+
+#addContact {
+    position: absolute;
+    top: 7rem;
+    margin-left: -18%;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 12px;
+    padding: 5px 15px;
+    background-color: red;
+    color: whitesmoke;
+    transition: 0.25px;
+}
+
+#addContact:hover {
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius:  12px;
+    color: whitesmoke;
+    background-color: black;
+}
+
+/*========== Enter-api-key ========== */
+
+.body-api {
+    background-image: linear-gradient(rgba(2, 2, 2, 0.65), rgba(0, 0, 0, 0.76)),url(img/pexels-hermaion-205414.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.heading-api {
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 10rem;
+    padding-bottom: 1.2rem;
+
+}
+
+#apiKey {
+    width: 40%;
+    font-weight: 700;
+}
+
+.plus {
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 3rem;
+    background-color: rgba(13, 13, 13, 0.76);
+    padding: 5px 0;
+
+}
+
+#submitApiKey {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: 1.3rem;
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color: black;
+    color: whitesmoke;
+    transition: 0.25px;
+
+}
+
+#submitApiKey:hover {
+
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 10px;
+    color: whitesmoke;
+    background-color: red;
+}
+
+/*========== Add-contact ========== */
+.body-addcontact{
+    background-image: url(img/network-stripes-lines-texture-surface-dark-672287-wallhere.com.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.heading-adds{
+    color: whitesmoke;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 5px 0;
+    
+}
+
+#editForm{
+    color: whitesmoke;
+    width: 70%;
+    padding: 50px 0 20px 0;
+    margin-left: 15%;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 10px;
+}
+
+#submitForm {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 12x;
+    padding: 5px 15px;
+    background-color: red;
+    color: whitesmoke;
+    transition: 0.25px;
+}
+
+#submitForm:hover {
+    color: red;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 15px;
+    background-color: dimgray;
+}
+
+#homeLink {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 15px;
+    padding: 5px 15px;
+    background-color: dimgray;
+    color: whitesmoke;
+    transition: 0.25px;
+    margin-bottom: 5rem;
+}
+
+#homeLink:hover {
+    color: dimgray;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+
+/*========== Edit-contact ========== */
+
+.body-edit{
+    background-image: url(img/network-stripes-lines-texture-surface-dark-672287-wallhere.com.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#avatarImage {
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+#editContact {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 15px;
+    padding: 5px 15px;
+    background-color: whitesmoke;
+    color: black;
+    transition: 0.25px;
+    margin-bottom: 5rem;
+}
+
+#editContact:hover {
+    color: whitesmoke;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 15px;
+    background-color: black;
+}
+
+#deleteContact {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 15px;
+    padding: 5px 15px;
+    background-color: whitesmoke;
+    color: red;
+    transition: 0.25px;
+    margin-bottom: 5rem;
+}
+
+#deleteContact:hover {
+    color: whitesmoke;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 15px;
+    background-color: red;
+}
+
